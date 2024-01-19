@@ -384,3 +384,97 @@ height: 502px;
 flex-shrink: 0;
 background: rgba(19, 19, 24, 0.05);
 }
+@media screen and (max-width: 576px) {
+    .header1{
+        flex-direction: column;
+    }
+    .first-sec{
+        justify-content: center;
+        flex-direction: column;
+        background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-position: 100%;
+    }
+    .heading2{
+        margin: 0 auto;
+        color: #FFF;
+font-family: Mulish;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .heading3{
+        padding-right: 177px;
+        color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .div2 > li{
+        flex-direction: column;
+    }
+    .p1{
+        width: 304px;
+        margin: 0 auto;
+        color: #FFF;
+        text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; 
+    }
+    .div3{
+        flex-direction: column;
+    }
+    .second-sec{
+        flex-direction: column;
+    }
+    .div4{
+        flex-direction: column;
+    }
+    .p2{
+        margin: 0 auto;
+    }
+    .heading4{
+        margin: 0 auto;
+        color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .p4{
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+    }
+    .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+        display: flex;
+        padding: 20px;
+        
+
+    }
+    
+    }
+    .images1{
+        grid-template-columns: 1, 1fr;
+    }
+    .diver{
+        flex-direction: column;
+    }
+    .div7{
+        padding-right: 5550px;
+        
+    }
+}
